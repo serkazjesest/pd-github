@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 import joblib
 from predictor_preprocessing import collect_up_to_date_data
@@ -31,8 +29,7 @@ def start_up_the_machine():
     #    print(symbol + ' ' + str(y_pred[i]))
 
 
-if __name__ == '__main__':
-    
+if __name__ == '__main__':    
     question = input('Собрать актуальные данные перед запуском? (д/н)')
     if question == 'д':
         print(datetime.now())
